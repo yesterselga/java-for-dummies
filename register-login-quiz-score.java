@@ -35,7 +35,7 @@ public class LoginRegisterQuiz {
                     System.out.println("\n--------------------\nSuccessfully logged in!");
                     System.out.println("--------------------\n");
                 }else{
-                    System.out.println("\n--------------------\nInvalid username or password!\n--------------------\n");
+                    System.err.println("\n--------------------\nInvalid username or password!\n--------------------\n");
                 }
 
                 // -------REGISTER------
